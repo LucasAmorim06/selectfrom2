@@ -1,0 +1,23 @@
+-- TABLE
+CREATE TABLE demo (ID integer primary key, Name varchar(20), Hint text );
+CREATE TABLE produto(
+ id INTEGER PRIMARY KEY AUTOINCREMENT,
+ nome VARCHAR (100) NOT NULL,
+ descricao TEXT,
+ preco DECIMAL(10,2),
+ dataHora DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE produtos(
+ id INTEGER PRIMARY KEY AUTOINCREMENT,
+ nome VARCHAR (100) NOT NULL,
+ descrição,
+ preco DECIMAL(10,2),
+ dataHora DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+ 
+-- INDEX
+ 
+-- TRIGGER
+ 
+-- VIEW
+ 
